@@ -59,7 +59,7 @@ public class JFinalClubConfig extends JFinalConfig {
 	 * 
 	 */
 	public static void main(String[] args) {
-		JFinal.start("src/main/webapp", 80, "/", 5);
+		JFinal.start("src/main/webapp", 80, "/");
 	}
 	
 	public void configConstant(Constants me) {
