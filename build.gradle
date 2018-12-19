@@ -21,6 +21,7 @@ repositories {
 }
 dependencies {
     compile group: 'com.jfinal', name: 'jfinal', version:'3.5'
+    //todo_cy 打 war 包时为了避免 jetty 的包被打进去，需要将jetty-server的依赖方式改成 provided
     compile group: 'com.jfinal', name: 'jetty-server', version:'2018.11'
     compile group: 'org.slf4j', name: 'slf4j-nop', version:'1.7.25'
     compile group: 'com.alibaba', name: 'druid', version:'1.0.29'
