@@ -1,5 +1,5 @@
 #主要配置
-jdbcUrl=jdbc:mysql://localhost:3306/jfinal_club_3.5?characterEncoding=utf8&useSSL=false&zeroDateTimeBehavior=convertToNull
+jdbcUrl=jdbc:mysql://localhost:3306/jfinal_club_3.5?serverTimezone=UTC&characterEncoding=utf8&useSSL=false&zeroDateTimeBehavior=convertToNull
 user=root
 password=root
 devMode=true

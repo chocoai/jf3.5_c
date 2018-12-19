@@ -90,9 +90,9 @@ public class MyFriendService {
             return Ret.ok();
         } catch (ActiveRecordException e) {
             // 快速多次点击关注按钮时，插入重复值时会抛异常，返回成功
-            if (e.getCause() instanceof com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException) {
-                return Ret.ok();
-            }
+//            if (e.getCause() instanceof com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException) {
+//                return Ret.ok();
+//            }
             return Ret.fail("msg", "添加关注失败");
         }
 	}
