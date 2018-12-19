@@ -31,5 +31,5 @@ META-INF
 #Android studio
 .gradle/
 build/
-
+out/
 .externalNativeBuild/
